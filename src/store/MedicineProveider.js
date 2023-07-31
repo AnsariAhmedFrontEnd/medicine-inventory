@@ -4,7 +4,7 @@ import MedicineContext from "./medicine-context";
 const MedicineProvider = (props) => {
     const [medicineItems, setMedicineItems] = useState([]);
 const addProductHandler = (item) => {
-    setMedicineItems(preveiousItems => [...preveiousItems, item])
+    setMedicineItems(preveiousItems => [...preveiousItems, item]);
 
 };
 
